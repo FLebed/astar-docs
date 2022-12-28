@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Tools
+# Use OpenBrush
 
-## OpenBrush
+## OpenBrush 
 
 [OpenBrush] is a library for smart contract development on ink! maintained by the [Brushfam] team. It intends to be like OpenZeppellin for Solidity.
 
@@ -31,6 +31,8 @@ Which standard tokens and useful contracts does it provide?
 - **Timelock Controller**: Execute transactions with some delay
 - **Payment Splitter**: Split the amount of native tokens between participants
 
+(Add more info or examples if needed)
+
 ### Generic Trait Implementation
 
 More importantly, OpenBrush adds support for generic Trait implementation so you can split Trait and Impls into different files, which will increase the readability and maintainability of your smart-contract code base (see detailed description [here](https://github.com/727-Ventures/openbrush-contracts/blob/main/docs/docs/smart-contracts/example/setup_project.md))
@@ -47,14 +49,21 @@ Defining a Trait definition is sufficient (a contract that implements that Trait
 - [Substrate Seminar (Youtube)](https://www.youtube.com/watch?v=I5OFGNVvzOc)
 - [How to use modifiers](https://medium.com/supercolony/how-to-use-modifiers-for-ink-smart-contracts-using-openbrush-7a9e53ba1c76)
 
+
+(Put Sol2ink and typechain in the separate section named tools)
 ## Sol2Ink
 [Sol2ink] is another tool maintained by the [Brushfam] team, used for easy migration from Solidity to ink! and Rust that helps projects and teams migrate their smart contracts from popular Solidity to Polkadot's ink!.
 
 How it works? You simply input your code to Solidity and in a few seconds get your ink! smart contract.
 
+(Add more info or git link)
+
 ## Typechian-Polkadot
 [Typechain-Polkadot] is also one of [Brushfam] maintaned tools, created to improve developers’ experience with frontend usage of ink! smart contracts and also a deployment and integration testing by providing typescript types for ink! smart contracts.
 
+(Add more info or git link)
+
+## Join our Q/A channel
 You can join the [Brushfam Element channel](https://matrix.to/#/!utTuYglskDvqRRMQta:matrix.org?via=matrix.org&via=t2bot.io&via=web3.foundation) if you have any question about some of the Brushfam infrastructure tools, and meet other ikn! smart contracts developers.
 
 ### `parity-common`
